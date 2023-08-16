@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 class Shift(object):
     def __init__(self, year, month, member):
         self.year = year
-        self.month = month
+        self.month = month + 1
         self.week = ['月', '火', '水', '木', '金', '土', '日']
         self.member = member
 
